@@ -6,7 +6,21 @@ body {
 * {
   box-sizing: border-box;
 }
-
+.go-home {
+  height: 80px;
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: red;
+  color: black;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
 h1 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
