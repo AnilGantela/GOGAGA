@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.plans {
+  font-family: Roboto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.plan {
+  background-image: radial-gradient(
+      circle at center center,
+      transparent,
+      rgb(33, 33, 33)
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgb(33, 33, 33) 0px,
+      rgb(33, 33, 33) 2px,
+      transparent 2px,
+      transparent 10px,
+      rgb(33, 33, 33) 10px,
+      rgb(33, 33, 33) 11px,
+      transparent 11px,
+      transparent 21px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgb(47, 47, 47) 0px,
+      rgb(47, 47, 47) 4px,
+      transparent 4px,
+      transparent 8px
+    ),
+    linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.plan h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.plan p {
+  margin-bottom: 1rem;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.plan ul li {
+  margin-bottom: 0.5rem;
+}
+
+.plan .price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.plan button {
+  height: 3rem;
+  width: 8rem;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plan button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.inner-page-container {
+  background-image: url("dubai2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh; /* Adjust height as needed */
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner-page-container h1,
+.inner-page-container p {
+  margin: 0;
+  color: #ffffff;
+  text-align: left;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inner-page-container h1 {
+  font-size: 5vw;
+}
+
+.inner-page-container p {
+  font-size: 2vw;
+}
+
+.gallery div {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.gallery div::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .plans {
+    display: flex;
+  }
+  .plan {
+    width: 30%;
+  }
+  .price-container {
+    margin-top: auto; /* Reset margin for larger screens */
+  }
+}
+.flight-container {
+  background-image: radial-gradient(
+      circle at 67% 83%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 1%,
+      transparent 1%,
+      transparent 5%,
+      transparent 5%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 24% 80%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 27%,
+      transparent 27%,
+      transparent 63%,
+      transparent 63%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 23% 5%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 26%,
+      transparent 26%,
+      transparent 82%,
+      transparent 82%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 21% 11%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 35%,
+      transparent 35%,
+      transparent 45%,
+      transparent 45%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 10% 11%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 21%,
+      transparent 21%,
+      transparent 81%,
+      transparent 81%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 19% 61%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 20%,
+      transparent 20%,
+      transparent 61%,
+      transparent 61%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 13% 77%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 63%,
+      transparent 63%,
+      transparent 72%,
+      transparent 72%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 30% 93%,
+      hsla(317, 0%, 96%, 0.05) 0%,
+      hsla(317, 0%, 96%, 0.05) 33%,
+      transparent 33%,
+      transparent 82%,
+      transparent 82%,
+      transparent 100%
+    ),
+    linear-gradient(270deg, rgb(22, 176, 207), rgb(50, 5, 255));
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  border-radius: 10px;
+  text-align: left;
+}
+.flight-container div {
+  margin: 10px;
+  height: auto;
+  text-align: left;
+  color: #ffffff;
+}
+.flight-container h1 {
+  text-align: left;
+}
+.flight-container img {
+  width: 40%;
+  border-radius: 10px;
+}
+.flight-container p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  width: 60%;
+}
+.flight-btn {
+  text-align: left;
+  padding: 2% 3%;
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.flight-btn {
+  background: rgb(255, 115, 0);
+  box-shadow: 0 0 25px rgb(255, 115, 0);
+  text-align: start;
+}
+
+.flight-btn:hover {
+  box-shadow: 0 0 5px rgb(255, 115, 0), 0 0 25px rgb(255, 115, 0),
+    0 0 50px rgb(255, 115, 0), 0 0 100px rgb(255, 115, 0);
+}
