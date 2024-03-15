@@ -9,6 +9,9 @@ body {
   background-color: rgb(180, 255, 254);
   text-align: center;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 .home-block {
   display: block;
   background-color: rgb(255, 171, 68);
