@@ -9,9 +9,7 @@ body {
   background-color: rgb(180, 255, 254);
   text-align: center;
 }
-body::-webkit-scrollbar {
-  display: none;
-}
+
 .home-block {
   display: block;
   background-color: rgb(255, 171, 68);
@@ -457,9 +455,11 @@ p {
   font-size: 20px;
 }
 
-/* Example icons using Font Awesome */
+
 .social-icons a:hover {
   color: #ccc;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
-/* You may need to include Font Awesome CSS separately */
